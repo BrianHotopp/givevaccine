@@ -1,0 +1,2 @@
+#!/bin/sh
+curl 'https://am-i-eligible.covid19vaccine.health.ny.gov/api/list-providers' -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0' -H 'Accept: application/json, text/plain, */*' -H 'Accept-Language: en-US,en;q=0.5' --compressed -H 'Token: undefined' -H 'Referer: https://am-i-eligible.covid19vaccine.health.ny.gov/' -H 'Connection: keep-alive' -H 'TE: Trailers' > /root/givevaccine/out.json
